@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body{
+	margin: 0px;
+	background-color: #F0F8FF;
+}
+
+div.margem{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+img.img1{
+	width: 100%;
+}
+
+table{
+	font-family: 'Poppins';
+	font-size: 13px;
+	text-align: center;
+	vertical-align: middle; 
+	margin-top: 2%;
+}
+
+td{
+	vertical-align: middle; 
+}
+
+td.th{
+	text-align: left;
+}
+
+th.th{
+	text-align: left;
+}
+
+
+td.td{
+	text-align: center;
+}
+
+th.td{
+	text-align: center;
+}
+
+ul.menu{
+	font-family: 'Poppins';
+	margin: 0%;
+	background-color: black;
+	list-style: none;
+	font-weight: bold;
+	font-size: 70%;
+	letter-spacing: 2px;
+}
+
+li.menu1{
+	display: inline;
+}
+
+li.menu2{
+	display: inline;
+}
+
+a.menu1{
+	padding-left: 2%;
+	padding-right: 1%;
+	padding-top: 0.9%;
+	padding-bottom: 0.9%;
+	display: inline-block;
+	color: white;
+	text-decoration: none; 
+}
+
+a.menu2{
+	padding: 0.9% 1%;
+	display: inline-block;
+	color: white;
+	text-decoration: none; 
+}
+
+.menu1 a:hover{
+	color:white;
+	background-color: #E6E6FA;
+}
+
+.menu2 a:hover{
+	color:white;
+	background-color: #E6E6FA;
+}
+
+
+input[type=text] {
+  width: 83%;
+  padding: 1px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+ input[type='radio']:after {
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+        top: -6px;
+        left: 0px;
+        position: relative;
+        background-color: black;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
+    input[type='radio']:checked:after {
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+        top: -6px;
+        left: 0px;
+        position: relative;
+        background-color: black;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid black;
+    }
+
